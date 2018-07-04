@@ -2,7 +2,7 @@ var webdriver = require('selenium-webdriver');
 var assert = require('assert')
 var chromeCapabilities = webdriver.Capabilities.chrome();
     var chromeOptions = {
-        'args': []
+        'args': ['--disable-dev-shm-usage']
     };
    chromeCapabilities.set('chromeOptions', chromeOptions);
    driver = {};
