@@ -1,8 +1,10 @@
 var webdriver = require('selenium-webdriver');
 var assert = require('assert')
 var chromeCapabilities = webdriver.Capabilities.chrome();
-
-   
+    var chromeOptions = {
+        'args': ['--start-maximized']
+    };
+   chromeCapabilities.set('chromeOptions', chromeOptions);
    driver = {};
 
 exports.Actionwords = {
