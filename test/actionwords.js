@@ -3,7 +3,7 @@ var assert = require('assert')
 var chromeCapabilities = webdriver.Capabilities.chrome();
     var chromeOptions = {
         'args': ['--start-maximized'],
-        'binary': '/usr/local/bin/chromedriver',
+        'binary': '/home/travis/build/hairmot/hipTestFirst/node_modules/chromedriver/lib/chromedriver/chromedriver',
     };
    chromeCapabilities.set('chromeOptions', chromeOptions);
    driver = {};
