@@ -1,9 +1,0 @@
-1..1
-not ok 1 test Happy Kent ID
-  AssertionError [ERR_ASSERTION]: 'Google' == 'Gooagle'
-      at Object.loginToTheSystemAsPc386 (test\actionwords.js:16:14)
-      at <anonymous>
-      at process._tickCallback (internal/process/next_tick.js:188:7)
-# tests 1
-# pass 0
-# fail 1

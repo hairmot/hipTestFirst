@@ -13,7 +13,7 @@ exports.Actionwords = {
     driver = await new webdriver.Builder().withCapabilities(chromeCapabilities).build();
     await driver.get('https://www.google.com/')
     
-      assert.equal(await driver.getTitle(), "Gooagle")
+      assert.equal(await driver.getTitle(), "Google")
      
   },
   goToTheLookupsPage: function () {
