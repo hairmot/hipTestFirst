@@ -6,10 +6,10 @@ before_install:
   - rvm install 2.2
   - rvm use 2.2
   - gem install hiptest-publisher
-  - hiptest-publisher -c mocha.conf --only=tests --test-run-id=11085
+  - hiptest-publisher -c mocha.conf --only=tests --test-run-id=172464
 
 script:
   - npm test
 
 after_script:
-  - hiptest-publisher -c mocha.conf --push=output.txt --test-run-id=11085
+  - hiptest-publisher -c mocha.conf --push=output.txt --test-run-id=172464
