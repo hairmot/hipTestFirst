@@ -2,7 +2,8 @@ var webdriver = require('selenium-webdriver');
 var assert = require('assert')
 var chromeCapabilities = webdriver.Capabilities.chrome();
     var chromeOptions = {
-        'args': ['--disable-dev-shm-usage']
+        'args': ['--start-maximized'],
+        'binary': '/usr/local/bin/chromedriver',
     };
    chromeCapabilities.set('chromeOptions', chromeOptions);
    driver = {};
