@@ -2,8 +2,8 @@ var webdriver = require('selenium-webdriver');
 var assert = require('assert')
 var chromeCapabilities = webdriver.Capabilities.chrome();
     var chromeOptions = {
-        'args': ['--start-maximized'],
-        'binary': '/home/travis/build/hairmot/hipTestFirst/node_modules/chromedriver/lib/chromedriver/chromedriver',
+        'args': ['--headless'],
+        'binary': '/usr/local/bin/chromedriver',
     };
    chromeCapabilities.set('chromeOptions', chromeOptions);
    driver = {};
