@@ -2,7 +2,7 @@ var webdriver = require('selenium-webdriver');
 var assert = require('assert')
 var chromeCapabilities = webdriver.Capabilities.chrome();
     var chromeOptions = {
-        'args': ['--headless'],
+        'args': ['--headless',  "window-size=1024,768", "--no-sandbox"],
         'binary': '/usr/local/bin/chromedriver',
     };
    chromeCapabilities.set('chromeOptions', chromeOptions);
