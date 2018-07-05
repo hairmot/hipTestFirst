@@ -28,4 +28,4 @@ script:
   - npm test
 
 after_script:
-  - hiptest-publisher -c mocha.conf --push=output.txt --test-run-id=172464
+  - hiptest-publisher -c mocha.conf --push-format-"tap" --push=output.txt --test-run-id=172464

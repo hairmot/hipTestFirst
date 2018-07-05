@@ -1,6 +1,6 @@
 1..1
 not ok 1 test Happy Kent ID
-  WebDriverError: unknown error: no chrome binary at /usr/local/bin/chromedriver
+  WebDriverError: unknown error: no chrome binary at /usr/bin/google-chrome-stable
     (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64)
       at Object.checkLegacyResponse (node_modules\selenium-webdriver\lib\error.js:585:15)
       at parseHttpResponse (node_modules\selenium-webdriver\lib\http.js:533:13)
