@@ -15,7 +15,7 @@ describe('test', function () {
       await this.actionwords.clickTheQuickStudentLookupLink();
     }
 
-    it('Kent ID', async function () {
+    it('Kent ID (uid:77d377f0-23ea-4127-a4db-4bfbac516cf7)', async function () {
       await happy.apply(this, [18000804]);      
     });
   });
