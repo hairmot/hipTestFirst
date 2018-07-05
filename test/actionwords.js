@@ -3,7 +3,7 @@ var assert = require('assert')
 var chromeCapabilities = webdriver.Capabilities.chrome();
     var chromeOptions = {
         'args': ['--headless',  "window-size=1024,768", "--no-sandbox"],
-        'binary': '/usr/local/bin/chromedriver',
+        'binary': '/usr/bin/google-chrome-stable',
     };
    chromeCapabilities.set('chromeOptions', chromeOptions);
    driver = {};
