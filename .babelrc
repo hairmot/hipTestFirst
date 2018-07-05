@@ -1,0 +1,3 @@
+{
+    "plugins": ["./auto-async/auto-async.js","auto-await"]
+}

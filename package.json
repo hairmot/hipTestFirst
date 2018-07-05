@@ -1,23 +1,34 @@
 {
   "name": "hipTestAuto",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "mocha -S --no-timeouts --no-warnings --reporter=tap > output.txt"
+    "test": "mocha -S --compilers js:babel-core/register --no-timeouts --no-warnings --reporter=tap > output.txt"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-auto-await": "^0.3.4",
     "chai": "^4.1.2",
     "mocha": "^5.2.0"
   },
   "dependencies": {
     "chromedriver": "^2.40.0",
     "selenium-webdriver": "^4.0.0-alpha.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hairmot/hipTestFirst.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hairmot/hipTestFirst/issues"
+  },
+  "homepage": "https://github.com/hairmot/hipTestFirst#readme",
+  "description": ""
 }

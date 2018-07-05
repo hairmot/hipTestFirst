@@ -20,7 +20,7 @@ before_install:
   - sudo mv -f ~/chromedriver /usr/local/share/
   - sudo chmod +x /usr/local/share/chromedriver
   - sudo ln -s /usr/local/share/chromedriver /usr/local/bin/chromedriver
-
+  - hiptest-publisher --config=mocha.conf --test-run-id=172464 --without=actionwords
 script:
   - npm test
 
