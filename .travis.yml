@@ -14,7 +14,6 @@ before_install:
   - rvm install 2.2
   - rvm use 2.2
   - gem install hiptest-publisher
-  - hiptest-publisher -c mocha.conf --only=tests --test-run-id=172464
   - wget -N http://chromedriver.storage.googleapis.com/2.30/chromedriver_linux64.zip -P ~/
   - unzip ~/chromedriver_linux64.zip -d ~/
   - rm ~/chromedriver_linux64.zip
@@ -23,8 +22,6 @@ before_install:
   - sudo ln -s /usr/local/share/chromedriver /usr/local/bin/chromedriver
 
 script:
-  - whereis google-chrome-stable
-  - whereis chromedriver
   - npm test
 
 after_script:

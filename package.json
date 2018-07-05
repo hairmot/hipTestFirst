@@ -7,12 +7,13 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha -S --no-timeouts --reporter=tap > output.txt"
+    "test": "mocha -S --no-timeouts --no-warnings --reporter=tap > output.txt"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "chai": "^4.1.2",
     "mocha": "^5.2.0"
   },
   "dependencies": {
